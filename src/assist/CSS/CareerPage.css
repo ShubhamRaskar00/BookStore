@@ -1,0 +1,63 @@
+.career_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.career_header img{
+    width: 100%;
+    box-shadow: 0 2px 10px #000;
+    height: 500px;
+    border-radius: 6px;
+}
+
+.career_container h1 {
+    margin: 40px;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.career_image {
+    border-radius: 6px;
+    box-shadow: 0 0 10px #000;
+}
+
+.career_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.career_table {
+    border: 1px solid rgb(34, 154, 219);
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.career_table h3 {
+    color: rgb(34, 154, 219);
+    margin-top: 10px;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+.career_table p {
+    margin: 0 20px;
+    font-size: 1rem;
+}
+
+.career_table .icons {
+    position: absolute;
+    top: -60px;
+    right: 0;
+    font-size: 5rem;
+    color: red;
+}

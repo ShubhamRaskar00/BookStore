@@ -1,0 +1,26 @@
+.about_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.about_header .about_logo img{
+    width: 100%;
+    box-shadow: 0 2px 3px #222;
+}
+.about_text {
+    text-align: center;
+    margin: 35px 0;
+}
+.about_text h3{
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 25px;
+    text-transform: capitalize;
+}
+
+.about_text span {
+    color: red;
+    font-weight: 400;
+    font-size: 1rem;
+}
